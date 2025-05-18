@@ -18,9 +18,9 @@ const textColorEl = document.querySelector('.text-Color');
 
 btnColorEl.addEventListener('click', () => {
     if (textColorEl.style.color === 'red') {
-        textColorEl.style.color = 'black';
+        textColorEl.style.color === 'black';
     } else {
-        textColorEl.style.color = 'red';
+        textColorEl.style.color === 'red';
     }
 });
 
