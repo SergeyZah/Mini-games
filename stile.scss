@@ -408,15 +408,12 @@ a {
     }
 
     to {
-        transform: translateX(calc(-200% - 0px));
+        transform: translateX(calc(-100% - 0px));
     }
 }
 
 .animated-bar {
     animation: move 10s linear infinite alternate;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 @import 'tablet';

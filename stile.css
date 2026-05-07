@@ -349,14 +349,11 @@ a {
     transform: translateX(0%);
   }
   to {
-    transform: translateX(calc(-200% - 0px));
+    transform: translateX(calc(-100% - 0px));
   }
 }
 .animated-bar {
   animation: move 10s linear infinite alternate;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 @media (max-width: 1024px) {
