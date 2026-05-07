@@ -10,10 +10,8 @@ document.getElementById('playGame6').addEventListener('click', function () {
     }
 
     function changeBackgroundColor() {
-        console.log("Кнопка нажата, меняем фон...");
         const randomColor = getRandomColor();
         sectionPlay.style.backgroundColor = randomColor;
-        console.log("Фон изменён на:", randomColor);
     }
 
     changeBackgroundColor();
